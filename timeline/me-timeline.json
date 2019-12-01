@@ -1,0 +1,121 @@
+[
+  {
+    "year": "2004",
+    "release": "",
+    "features": [
+      "AMT (Active Management Technology) announced"
+    ]
+  },
+  {
+    "year": "2005",
+    "release": "AMT/ME 1.0",
+    "features": [
+      "ARC CPU inside Tekoa LAN",
+      "IDE-R, SoL, SOAP API"
+    ]
+  },
+  {
+    "year": "2006",
+    "release": "AMT/ME 2.0",
+    "features": [
+      "ME moves into GMCH (North bridge)"
+    ]
+  },
+  {
+    "year": "2006",
+    "release": "AMT/ME 2.1",
+    "features": [
+    ]
+  },
+  {
+    "year": "2007",
+    "release": "3.0(desktop) / 4.0 (mobile)",
+    "features": [
+      "first variants without AMT; QST, iTPM appears"
+    ]
+  },
+  {
+    "year": "2007",
+    "release": "AMT/ME 4.1",
+    "features": [
+      "TDT (Theft Deterrence Technology)"
+    ]
+  },
+  {
+    "year": "2008",
+    "release": "AMT/ME 5.0",
+    "features": [
+      "Intel Core 2 vPro"
+    ]
+  },
+  {
+    "year": "2009",
+    "release": "AMT/ME 6.0",
+    "features": [
+      "first PCH platform, ME Gen 2 (ARC600 CPU)",
+      "KVM support (using VNC protocol)"
+    ]
+  },
+  {
+    "year": "2010",
+    "release": "AMT/ME 6.1",
+    "features": []
+  },
+  {
+    "year": "2011",
+    "release": "AMT/ME 7.0",
+    "features": [
+      "Q67 chipsets",
+      "SOAP protocol removal"
+    ]
+  },
+  {
+    "year": "2011",
+    "release": "AMT/ME 7.1",
+    "features": [
+      "DAL (Dynamic Application Loader) for IPT/OTP"
+    ]
+  },
+  {
+    "year": "2012",
+    "release": "AMT/ME 8.0",
+    "features": [
+      "Q75/77 chipsets"
+    ]
+  },
+  {
+    "year": "2013",
+    "release": "AMT/ME 9.0",
+    "features": [
+    ]
+  },
+  {
+    "year": "2014",
+    "release": "ME 10.0",
+    "features": [
+      "TDT (Anti-Theft) removal"
+    ]
+  },
+  {
+    "year": "2015",
+    "release": "ME 11.0",
+    "features": [
+      "Gen 3 release (x86, Minix)"
+    ]
+  },
+  {
+    "year": "2017",
+    "release": "ME 11.6",
+    "features": [
+      "Small Business Technology Platform ended"
+    ]
+  },
+  {
+    "year": "2018",
+    "release": "ME 12.0",
+    "features": [
+      "AMT can be disabled",
+      "TLS 1.2 supported, 1.0 dropped"
+    ]
+  }
+]

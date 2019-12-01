@@ -1,4 +1,6 @@
 all:
+	$(MAKE) -C timeline
+	$(MAKE) -C bootseq
 	pandoc \
 		-t beamer \
 		--pdf-engine=xelatex \

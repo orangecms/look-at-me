@@ -1,0 +1,33 @@
+diagram {
+  default_node_color = '#FE5000';
+  default_group_color = '#8E8080';
+  default_fontsize = 21;
+  node_width = 200;
+
+  'ME boot ROM' -> RBE -> 'BUP (bringup)' -> 'CPU reset' -> 'CPU uCode' -> 'host FW' -> 'host OS' [color = '#D0D0CE'];
+  'BUP (bringup)' -> 'ME OS' [color = '#D0D0CE'];
+  RBE -> 'PMC patch/data' [style = dashed, color = '#00BB31'];
+  'PMC boot ROM' -> 'PMC patch/data' [color = '#D0D0CE'];
+  'EC boot ROM' -> 'EC OS' [color = '#D0D0CE'];
+
+  lane Chipset {
+    'ME boot ROM';
+    RBE;
+    'BUP (bringup)';
+    'ME OS';
+  }
+  lane CPU {
+    'CPU reset';
+    'CPU uCode';
+    'host FW';
+    'host OS';
+  }
+  lane PMC {
+    'PMC boot ROM';
+    'PMC patch/data';
+  }
+  lane EC {
+    'EC boot ROM';
+    'EC OS';
+  }
+}
