@@ -32,14 +32,13 @@ fig, ax = plt.subplots(
     figsize=(10, 5),
     constrained_layout=True
 )
-ax.set(title="Intel ME releases")
 
 markerline, stemline, baseline = ax.stem(
     dates,
     levels,
     linefmt="C3-",
-    basefmt="k-"
-    #use_line_collection=True # TODO: deprecated?
+    basefmt="-",
+    use_line_collection=True # True for new behavior
 )
 
 plt.setp(markerline, mec="k", mfc="w", zorder=3)
@@ -51,18 +50,20 @@ markerline.set_ydata(np.zeros(len(dates)))
 vert = np.array(['top', 'bottom'])[(levels > 0).astype(int)]
 for d, l, r, f, va in zip(dates, levels, releases, features, vert):
     ax.annotate(
-        r and r + '\n' + '\n'.join(f),
+        r + (r and len(f)>0 and '\n' or '') + '\n'.join(f),
         xy=(d, l),
         xytext=(-3, np.sign(l)*3),
         textcoords="offset points",
         va=va,
-        ha="right"
+        color="orange",
+        bbox=dict(facecolor="#1a1a1a"),
+        ha="center"
     )
 
 # format xaxis with 1-year intervals
 ax.get_xaxis().set_major_locator(mdates.YearLocator())
 ax.get_xaxis().set_major_formatter(mdates.DateFormatter("%Y"))
-plt.setp(ax.get_xticklabels(), rotation=30, ha="right")
+plt.setp(ax.get_xticklabels(), rotation=30, ha="right", color="white")
 
 # remove y axis and spines
 ax.get_yaxis().set_visible(False)
@@ -75,6 +76,6 @@ plt.savefig(
     'me-timeline.png',
     bbox_inches='tight',
     edgecolor='green',
-    facecolor='orange',
+    facecolor='black',
     transparent=True
 )

@@ -3,7 +3,7 @@
     "year": "2004",
     "release": "",
     "features": [
-      "AMT (Active Management Technology) announced"
+      "AMT (Active Management\nTechnology) announced"
     ]
   },
   {
@@ -18,7 +18,7 @@
     "year": "2006",
     "release": "AMT/ME 2.0",
     "features": [
-      "ME moves into GMCH (North bridge)"
+      "ME moves into GMCH"
     ]
   },
   {
@@ -31,7 +31,8 @@
     "year": "2007",
     "release": "3.0(desktop) / 4.0 (mobile)",
     "features": [
-      "first variants without AMT; QST, iTPM appears"
+      "first variants without AMT",
+      "QST, iTPM appears"
     ]
   },
   {
@@ -52,7 +53,7 @@
     "year": "2009",
     "release": "AMT/ME 6.0",
     "features": [
-      "first PCH platform, ME Gen 2 (ARC600 CPU)",
+      "first PCH platform,\nME Gen 2 (ARC600 CPU)",
       "KVM support (using VNC protocol)"
     ]
   },
@@ -73,7 +74,7 @@
     "year": "2011",
     "release": "AMT/ME 7.1",
     "features": [
-      "DAL (Dynamic Application Loader) for IPT/OTP"
+      "DAL for IPT/OTP"
     ]
   },
   {
