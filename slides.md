@@ -502,7 +502,9 @@ MOV EAX, 0x000000
 +--------+---------------------------------+
 | PMC    | Power Management Controller     |
 +--------+---------------------------------+
-| MSR    | Model-Specific Register         |
+| MSR(1) | Model-Specific Register         |
++--------+---------------------------------+
+| MSR(2) | Machine Status Register         |
 +--------+---------------------------------+
 | PCR    | Platform Configuration Register |
 +--------+---------------------------------+
