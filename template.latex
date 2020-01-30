@@ -51,12 +51,13 @@ $if(background-image1)$
 }
 $endif$
 \usepackage{pgfpages}
-\definecolor{color0}{RGB}{172, 172, 172}
-\definecolor{color1}{RGB}{208, 208, 206}
-\definecolor{color2}{RGB}{254, 80,  0}
+\definecolor{color0}{RGB}{171, 27,  147}
+\definecolor{color1}{RGB}{28, 28, 28}
+\definecolor{color2}{RGB}{52,  121, 196}
 \definecolor{color3}{RGB}{0,   187, 49}
 \setbeamertemplate{caption}[numbered]
 \setbeamertemplate{caption label separator}{: }
+\setbeamertemplate{itemize item}{\includegraphics[scale=.12]{img/glenda_100.png}\hspace{9.5pt}}
 \setbeamercolor{titlelike}{fg=color0}
 \setbeamercolor{normal text}{fg=color1}
 \setbeamercolor{item}{fg=color3}
@@ -314,7 +315,7 @@ $if(strikeout)$
 $endif$
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+  \setlength{\itemsep}{2.2pt}\setlength{\parskip}{2.2pt}}
 $if(numbersections)$
 \setcounter{secnumdepth}{$if(secnumdepth)$$secnumdepth$$else$5$endif$}
 $else$

@@ -10,4 +10,6 @@ come to a few conclusions. This talk briefly summarizes the fundamentals of
 developing custom and open source firmware, followed by a quick guide through
 the process of analyzing the binaries without actually violating the terms to
 understand a few bits, and finally poses a statement on the political issues
-that researchers, repair technicians and software developers are facing.
+that researchers, repair technicians and software developers are facing
+nowadays, taking into account how consumers are affected and how they perceive
+the situtation eventually.

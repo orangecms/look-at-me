@@ -1,14 +1,14 @@
 diagram {
-  default_node_color = '#FE5000';
-  default_group_color = '#8E8080';
+  default_node_color = '#FEB000';
+  default_group_color = '#DED0F0';
   default_fontsize = 21;
   node_width = 200;
 
-  'ME boot ROM' -> RBE -> 'BUP (bringup)' -> 'CPU reset' -> 'CPU uCode' -> 'host FW' -> 'host OS' [color = '#D0D0CE'];
-  'BUP (bringup)' -> 'ME OS' [color = '#D0D0CE'];
+  'ME boot ROM' -> RBE -> 'BUP (bringup)' -> 'CPU reset' -> 'CPU uCode' -> 'host FW' -> 'host OS' [color = '#0D0D0E'];
+  'BUP (bringup)' -> 'ME OS' [color = '#0D0D0E'];
   RBE -> 'PMC patch/data' [style = dashed, color = '#00BB31'];
-  'PMC boot ROM' -> 'PMC patch/data' [color = '#D0D0CE'];
-  'EC boot ROM' -> 'EC OS' [color = '#D0D0CE'];
+  'PMC boot ROM' -> 'PMC patch/data' [color = '#0D0D0E'];
+  'EC boot ROM' -> 'EC OS' [color = '#0D0D0E'];
 
   lane Chipset {
     'ME boot ROM';
